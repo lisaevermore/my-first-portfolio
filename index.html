@@ -1,3 +1,5 @@
+</html>
+
 <!DOCTYPE html>
 <html lang="en-gb">
 
@@ -5,41 +7,113 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
+  <title>wannisa // Web Developer</title>
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
+  <div class="main-container"> 
   <!-- main logo / nav -->
   <header>
-    <h1>Lernantino</h1>
-    <nav>
+    <h1>wannisa</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
     </nav>
   </header>
 
   <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
-    </div>
+  <section class="hero-banner" id="hero">
+      <h2>Web Developer!</h2>
   </section>
+    <div id="banner-img"> 
+      <img src="/images/IMG_6160.JPG" alt="self portrait" id="self-portrait">
+    </div>
 
   <main class="page-wrapper">
     <!-- about me -->
     <section class="page-section" id="about">
       <h2>About Me</h2>
+      <div id="content"> 
+        <p>Hey, my name's Wannisa and this is my first portfolio, as I'm learning how to create a responsive portfolio using HTML/CSS. </p>
+        <p>Thanks for stopping by!</p>
+        <p>Bye for now!</p>
+      </div>
     </section>
 
     <!-- portfolio container -->
+    
     <section class="page-section" id="work">
-      <h2>Work</h2>
-    </section>
+      <section class="portfolio">
+        <div>
+          <h4>My Work</h4>
+        </div>
+          <div>
+            <article class="projects" id="horiseon-code-refactor">
+                <div id="container-header"><a target="_blank" href="https://lisaevermore.github.io/horiseon-code-refactor/">
+                  <h3>Horiseon Code Refactor</h3>
+                  <h4>HTML/CSS</h4></a>
+                  </div>
+                  <div id="horiseon-code-refactor-img" class="img"></div>
+            </article>
 
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
+            <div class="multi-row">
+            <article class="projects" id="Calculator">
+                <div class="container-header"><a target="_blank" href="https://lisaevermore.github.io/horiseon-code-refactor/">
+                  <h3>Calculator</h3>
+                  <h4>React/JavaScript/CSS</h4></a>
+                </div>
+                <div id="Calculator-img" class="img"></div>
+            </article>
+            <article class="projects" id="PastelPuzzels">
+              <div class="container-header"><a target="_blank" href="https://lisaevermore.github.io/horiseon-code-refactor/">
+                <h3>Pastel Puzzels</h3>
+                <h4>MERN Stack</h4></a>
+              </div>
+              <div id="PastelPuzzels-img" class="img"></div>
+          </article>
+            </div>
+            <div class="multi-row">
+            <article class="projects" id="RunBuddy">
+                <div class="container-header"><a target="_blank" href="https://lisaevermore.github.io/horiseon-code-refactor/">
+                  <h3>Run Buddy</h3>
+                  <h4>HTML/CSS</h4></a>
+                </div>
+                <div id="RunBuddy-img" class="img"></div>
+            </article>
+            <article class="projects" id="LEDWall">
+              <div id="container-header"><a target="_blank" href="https://lisaevermore.github.io/horiseon-code-refactor/">
+                <h3>LED Wall</h3>
+                <h4>Node/loT</h4></a>
+                </div>
+                <div class="LEDWall-img" id="img"></div>
+          </article>
+
+          </div>
+      </section>  
     </section>
+    
+    <!-- contact -->
+    <div class="footer">
+    <section class="page-section" id="contact">
+      <h2>Get in Touch</h2>
+      <div id="content">
+          <nav id="navbar">
+            <ul>
+              <li><a href="#">555.555.555</a></li>
+              <li><a href="mailto:k_wannisa7@hotmail.com">Email</a></li>
+              <li><a href="https://github.com/lisaevermore">GitHub</a></li>
+              <li><a href="https://www.instagram.com/lisaevermore/">Instagram</a></li>
+            </ul>
+          </nav>
+        </div>
+    </section>
+    </div>
   </main>
+</div>
 </body>
 
 </html>
