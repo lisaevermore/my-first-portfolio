@@ -38,7 +38,11 @@
   align-items: center;
   padding: 10px 30px;
   grid-area: header;
+ 
 
+  }
+  header.h1{
+    padding: 5px 20px 5px 100px;
   }
   #navbar {
   display: flex;
@@ -93,16 +97,7 @@
   }
 
 
-  /*
-
-  .work{
-  display: grid;
-  grid-area: work;
-  }
-  .contact{
-  display: grid;
-  grid-area: contact;
-  }*/
+  
 
 
 
@@ -112,10 +107,7 @@
   width: auto;
   grid-template-columns: repeat(4 1fr);
 
-  /*border-right: 5px black;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(3 1fr);
-  display: grid; */
+  
 
   }
 
@@ -128,11 +120,7 @@
   } 
 
 
-  /*.img{
-      max-width: 100%;
-      height: auto;
-      display: block;
-  }*/
+
 
   /* portfolio container */
   .portfolio {
